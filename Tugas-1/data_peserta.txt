@@ -4,4 +4,4 @@ Nama				: Priscillia Sugihartono
 Email 				: priscilliapps@gmail.com
 Sistem Operasi yang digunakan 	: Windows 10
 Akun Gitlab			: github.com/priscilliapps (Github)
-Akun Telegram			: priscillia (@priscilliapps)
+Akun Telegram			: Priscillia (@priscilliapps)
