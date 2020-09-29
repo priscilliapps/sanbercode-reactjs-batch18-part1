@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <link href="public/css/style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    </head>
+    <body>
+        <style>
+            body {
+                align-items: center;
+                justify-items: center;
+                margin: 0 auto;
+                padding: 30px;
+                display: grid;
+                background-color: #f9f3f3;
+            }
+            .container {
+                padding: 10px;
+                width: 60%;
+                background-color: white;
+                align-items: center;
+                justify-items: center;
+            }
+            .wrapper {
+                padding: 20px;
+                border-style: solid;
+                border-width: medium;
+                border-color:  #f9f3f3;
+            }
+            h1 {
+                text-align: center;
+                margin-top: 10px;
+            }
+            
+            .form td {
+                /**background-color: tomato;**/
+                padding-bottom: 10px;
+                width: 200px;
+            }
+            .form input {
+                width: 300px;
+                height: 20px;
+            }
+            textarea {
+                width: 300px;
+                height: 10em;
+            }
+            input[type=radio] {
+                width: 10px;
+            }
+            
+        </style>
+        <div class="container">
+            <div class="wrapper">
+                <h1>Hubungi Kami</h1>
+                <table class="info">
+                    <tr>
+                        <td><b>Kantor</b></td>
+                        <td>:</td> 
+                        <td>di jalan belum jadi</td>
+                    </tr>
+                    <tr>
+                        <td><b>Nomor Telepon</b></td>
+                        <td>:</td> 
+                        <td>08XX-XXXX-XXXX</td>
+                    </tr>
+                    <tr>
+                        <td><b>Email</b></td>
+                        <td>:</td> 
+                        <td>kan_belum_jadi@gmail.com</td>
+                    </tr>
+                </table><br>
+                <h1>Kirimkan Pesan</h1>
+                <table class="form">
+                    <tr>
+                        <td><b>Nama</b></td>
+                        <td>
+                            <input type="text" id="fname" name="fname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Email</b></td>
+                        <td>
+                            <input type="email" id="fname" name="fname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Jenis Kelamin</b></td>
+                        <td>
+                            <input type="radio" id="male" name="fname">Laki-Laki<br>
+                            <input type="radio" id="female" name="fname">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Pesan Anda</b></td>
+                        <td>
+                            <textarea name="mssg-box"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <p><input type="submit" value="Kirim" id="submit-button"></p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    background-image: url('../img/pattern.jpg');
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    position: sticky;
+    top: 0;
+}
+header img {
+    cursor: pointer;
+}
+header nav ul li {
+    display: inline;
+    padding: 8px;
+}
+header nav ul a {
+    text-decoration: none;
+    padding: 8px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+    color: #1E40CC;
+}
+header nav ul a:hover {
+    color: black;
+}
+.container h1 {
+    text-align: center;
+}
+body section {
+    padding: 30px;
+}
+.container {
+    padding: 10px;
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.article-list div {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+
+
+
+
+
