@@ -39,8 +39,7 @@ const newFunction = function literal(firstName, lastName){
         }
     }
 }
-   
-//Driver Code 
+
 newFunction("William", "Imoh").fullName() 
 
 
@@ -54,8 +53,6 @@ const newObject = {
 }
 
 const {firstName, lastName, destination, occupation, spell} = newObject
-
-// Driver code
 console.log(firstName, lastName, destination, occupation)
 
 
@@ -63,6 +60,4 @@ console.log(firstName, lastName, destination, occupation)
 const west = ["Will", "Chris", "Sam", "Holly"]
 const east = ["Gill", "Brian", "Noel", "Maggie"]
 let combined = [...west, ...east]
-
-//Driver Code
 console.log(combined)
